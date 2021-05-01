@@ -75,9 +75,9 @@ function MainContainer(){
                 <button className="btn btn-outline-danger" onClick={clearSearch}><i class="fas fa-window-close"></i>Clear</button>
                 <button onClick={handleFormSubmit} className="btn btn-outline-primary" type="submit" id="button-addon2">Search</button>
             </div>
-            <div style={{display: "flex", justifyContent: "center",  margin: "auto", color: "gray"}}>
+            {/* <div style={{display: "flex", justifyContent: "center",  margin: "auto", color: "gray"}}>
                 <p><small>Hover over the Phone Number or Email to Sort Employees</small></p>
-            </div>
+            </div> */}
             <Table list={users} sortEmail={sortEmail} sortNumber={sortNumber}/>
         </div>
     )
